@@ -105,6 +105,7 @@ export function Timer() {
 
 			if (key === KEYS.set) {
 				setEdit(true);
+				setStart(false);
 				setBlinking(false);
 				return;
 			}
@@ -113,6 +114,7 @@ export function Timer() {
 				setSeconds(0);
 				setMinutes(0);
 				setHours(0);
+				setStart(false);
 				return;
 			}
 		};
