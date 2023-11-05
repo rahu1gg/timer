@@ -9,11 +9,11 @@ export default function Home() {
 			</div>
 			<div className='absolute bottom-4 flex items-center justify-center gap-6'>
 				{KEYS_INFO.map(({ id, label, key }) => (
-					<div className='opacity-40 bg-white/20 p-2 rounded-xl pointer-events-none text-sm'>
-						<button key={id} type='button' className='border border-violet px-4 py-2 rounded-md mr-4'>
+					<div className='opacity-40 bg-white/20 p-2 rounded-xl pointer-events-none text-xs lg:text-sm lg:block flex flex-col items-center justify-center gap-2'>
+						<button key={id} type='button' className='border border-violet px-4 py-2 rounded-md lg:mr-4 inline-block'>
 							{key}
 						</button>
-						<span className='pr-1'>{label}</span>
+						<span className='lg:pr-1'>{label}</span>
 					</div>
 				))}
 			</div>
