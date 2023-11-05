@@ -165,7 +165,7 @@ export function Timer() {
 
 	return (
 		<p
-			className={`text-[19vw] w-full text-center bg-gradient-to-r from-violet from-0% via-yellow via-60% to-lightblue to-100% bg-clip-text text-transparent ${
+			className={`text-[19vw] w-max mx-auto text-center bg-gradient-to-r from-violet from-0% via-yellow via-60% to-lightblue to-100% bg-clip-text text-transparent ${
 				blinking && 'animate-bounce'
 			}`}
 		>
